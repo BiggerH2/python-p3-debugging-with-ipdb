@@ -2,6 +2,7 @@
 
 import ipdb
 
+# lib/ipdb_debugging.py
 def plus_two(num):
-    num + 2
+    num = num + 2  # Fix the assignment
     return num
